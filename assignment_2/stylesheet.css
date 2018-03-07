@@ -1,0 +1,52 @@
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+/* p {
+    background-color: yellow;
+} */
+
+    /* browser window = > 992px
+    tablet window = between 768px en 991 px
+    mobiel window = < 767px */
+
+@media only screen and (width: 767px) {
+    /*mobile*/
+    .col-1 {width: 100%}
+    .col-2 {width: 100%}
+    .col-3 {width: 100%}
+}
+@media only screen and (min-width:768px) {
+    /*tablet */
+    .col-1 {width: 50%}
+    .col-2 {width: 50%}
+    .col-3 {width: 50%}
+}
+@media only screen and (min-width: 992px){
+    desktop
+    .col-1 {width: 33,33%}
+    .col-2 {width: 33,33%}
+    .col-3 {width: 33,33%}
+}
+
+/* .row {
+    background-color: silver;
+} */
+
+p.col-1 {
+    background-color: aqua;
+}
+
+p.col-2 {
+    background-color: aquamarine;
+}
+
+p.col-3 {
+    background-color: tomato;
+}
