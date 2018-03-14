@@ -1,52 +1,93 @@
-
+/*body*/
+body {
+    margin: 1rem;
+}
+/*text*/
 h1 {
-    color: blue;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
-table {
+.col h2 {
+    position: absolute;
+    top: 0;
+    right: 0;  
+    margin: 0;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 5px 40px;
+
+}
+.col-1 h2 {
+    background-color: rgb(226, 117, 113);
+}
+
+.col-2 h2 {
+    background-color: burlywood;
+}
+
+.col-3 h2 {
+    background-color: cadetblue;
+}
+
+
+/*colum*/
+.col {
+    float: left;
     width: 100%;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(87, 193, 255);
+    box-sizing: border-box;
+    padding: 15px;
+    padding-top: 50px;
+    position: relative;
+    margin: .5rem 0;
 }
 
-/* p {
-    background-color: yellow;
-} */
-
-    /* browser window = > 992px
-    tablet window = between 768px en 991 px
-    mobiel window = < 767px */
-
-@media only screen and (width: 767px) {
-    /*mobile*/
-    .col-1 {width: 100%}
-    .col-2 {width: 100%}
-    .col-3 {width: 100%}
+.col-1 {
+    background-color: rgb(201, 201, 201);
 }
-@media only screen and (min-width:768px) {
+
+.col-2 {
+    background-color: rgb(201, 201, 201);
+}
+
+.col-3 {
+    background-color: rgb(201, 201, 201);
+}
+
+/*sizes*/
+    /*mobile screen*/
+@media screen and (max-width: 767px) {
+    .col {}
+}
+
     /*tablet */
-    .col-1 {width: 50%}
-    .col-2 {width: 50%}
-    .col-3 {width: 50%}
-}
-@media only screen and (min-width: 992px){
-    desktop
-    .col-1 {width: 33,33%}
-    .col-2 {width: 33,33%}
-    .col-3 {width: 33,33%}
+@media screen and (min-width:768px) and (max-width: 991px) {
+    .col {
+        width: calc(50% - .5rem);
+    }
+    .col-3 {
+        width: 100%;
+    } 
+    .col-1{
+        margin-right: 1rem;
+    }
+
 }
 
-/* .row {
-    background-color: silver;
-} */
-
-p.col-1 {
-    background-color: aqua;
+    /* desktop */
+@media screen and (min-width: 992px){
+    .col {
+        width: calc(33.33333333% - 0.6666666rem);
+    }
+    .col-1 {
+        margin-right: 1rem;
+    }
+    .col-2 {
+        margin-right: 1rem;
+    }
 }
 
-p.col-2 {
-    background-color: aquamarine;
-}
-
-p.col-3 {
-    background-color: tomato;
-}

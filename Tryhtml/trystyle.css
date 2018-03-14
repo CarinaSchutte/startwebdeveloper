@@ -1,0 +1,44 @@
+
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 5vw;
+}
+
+#header-nav {
+    margin-top: -20px;
+    margin-right: -7px;
+    margin-left: -20px;
+}
+.container {
+    background-color: rgb(240, 240, 240);
+    padding-bottom: -10px;
+    /* opasity: 0.8; doorzichtigheid */
+}
+
+/* map menu -> share eerst daarna embed map, copy and paste als url in html */
+ 
+/* 1 em kan bijvoorbeeld 18px zijn als dit ingesteld is */
+/* #menu-title, #div 2, #div3 alle drie samen stylen */
+
+/* header sizes */
+/* large devices only */
+@media (min-width: 1200px){
+    /* .jumbatron url, norepeat, size boxshadow, border  */
+}
+/* medium devices only */
+@media (min-width: 992px) and (max-width: 1199px){
+    /*  give sizes of the smaller logo! */
+}
+/* small devices only */
+@media (min-width: 168px) and (max-width: 991px){
+}
+/* extra small devices only */
+@media (max-width: 767px){
+    /* per size kan aangegeven worden welke padding, font-size enzo er kan */
+}

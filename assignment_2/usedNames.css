@@ -1,0 +1,29 @@
+/* CSS */
+fontsize = size of the text
+font-family = lettertype
+border-radius = 0 = geen ronde hoeken
+text-tranform =uppercase; --> zorgt ervoor dat de tekst omhoog gaat
+line-height = hoogte verschil tussen de ene regel tekst en de andere eronder.
+
+
+
+/* HTML */
+<nav id="header-nav"> = navigatiebalk
+class= container = zoekt zijn eigen 100% in de website
+navbar-header = header of the navbar
+navbar-brand = merklogo van het bedrijf
+visible-md = laat de logo zien als het medium scherm heeft
+visible-lg = laat de logo zien als het large scherm heeft
+container-fluid = The 'container' class has responsive pre-defined widths, so       it only its width at some pre-defined breakpoints.
+collapse nav = ingeklapte nav menu
+glyphicon = items in de navbar (ster of vork/mes)
+href="tel:telefoonnummer"= dan bel je meteen diegene
+hidden xs = laat stuk niet zien in kleine browser.
+
+
+
+/* Bootstrap */
+text right next to logo = 
+    <a href= "index.html" class="pull-left"> 
+        <div id="logo-img" alt="logo image"></div>
+    </a>
