@@ -4,6 +4,10 @@ font-family = lettertype
 border-radius = 0 = geen ronde hoeken
 text-tranform =uppercase; --> zorgt ervoor dat de tekst omhoog gaat
 line-height = hoogte verschil tussen de ene regel tekst en de andere eronder.
+box-shadow = lijntje om de box heen als je erop klikt.
+clearfix= visible in bepaalde block. lijnt mooi uit.
+
+
 
 
 
@@ -26,4 +30,4 @@ hidden xs = laat stuk niet zien in kleine browser.
 text right next to logo = 
     <a href= "index.html" class="pull-left"> 
         <div id="logo-img" alt="logo image"></div>
-    </a>
+    </a> 
