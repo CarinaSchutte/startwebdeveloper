@@ -16,25 +16,30 @@ h2 {
     box-sizing: border-box;
 }
 
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 2px 2px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-text{
+    float: left;
+}
+
 /* div.row {
     display: grid;
 } */
 
 /* <!-- <img src="http://res.cloudinary.com/simpleview/image/upload/v1470836048/clients/norway/naeroyfjorden_fjord_norway_2_1_001b9127-14ad-4b3d-99b6-29d8b3aae412.jpg"> --> */
-    /*mobile.col-xs-12  */
-/* @media (min-width: col-xs-max){
-    .col-xs-12
-/* }
 
-/*tablet.col-sm-6 *//*
-@media (min-width: col-sm-min) and (max-width: col-sm-max){
-    .col-sm-6    
-}*/
 
-/* desktop.col-md-6*//*
-@media (min-width: col-md-min) and (max-width: @screen-md-max){
-    .col-md-6
-} */ 
 
 #col1 {
     background-color: blue;
