@@ -4,32 +4,92 @@
     <head>
         <title>assignment3</title>
         <link rel="stylesheet" type="text/css" href="style_3.css">
-        <link rel="bootstrap" type="text/bootstrap" href="bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
         <div> 
-            <nav id="header-nav" class="container">
+            <!-- <nav id="header-nav" class="container">
                 <h2>Food LLC</h2>
+            </nav> -->
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="https://i1.wp.com/www.fitterfood.com/wp-content/uploads/2015/05/food-illustration-300x147.png?resize=300%2C147"></a>
+                        <img class="img-responsive" src="https://i1.wp.com/www.fitterfood.com/wp-content/uploads/2015/05/food-illustration-300x147.png?resize=300%2C147"></span>
+                    </a>
+                    <h2 class="navbar-text">Food LLC</h2>
+                        <div class="visible-xs">
+                            <!-- <button onclick="#" typ="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="mini-menu" aria-expanded="false">
+                                <span class="visible-xs"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="menuItems #">
+                            <ul>
+                                <li>Chicken</li>
+                            </ul>
+                        </div> -->
+
+                        <div class="dropdown">
+                            <button onclick="menuItems" class="dropbtn">Dropdown</button>
+                              <div id="myDropdown" class="dropdown-content">
+                                <a href="#home">Home</a>
+                                <a href="#about">About</a>
+                                <a href="#contact">Contact</a>
+                              </div>
+                        </div>
+
+                        <script>
+                            function menuItems(){
+                                document.getElementById("Home").innerHTML="Chicken"
+                            }
+                        </script>
+
+                    <!-- <div id="mini-menu" class="collapse navbar-collapse">
+                        <ul id="nav-list" class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="/startwebdeveloper/assignment_3/assignment_3.html">
+                                    <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Chicken</a>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Beef</a>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Sushi</a>
+                                </a>
+                            </li>
+                        </ul>
+                    </div> -->
+                </div>
             </nav>
         </div>
 
         <div class="container-fluid">
             <div class="row"> 
-                    <div id="col1" class="col-md-4 col-sm-4 col-xs-12">
+                    <div id="col1" class="col-md-4 col-sm-6 col-xs-12">
                         <h3>Lorem Ipsum</h3>
                         <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
                     </div>
 
-                    <div id="col2" class="col-md-4 col-sm-4 col-xs-12">
+                    <div id="col2" class="col-md-4 col-sm-6 col-xs-12">
                         <h3>Lorem Ipsum</h3>
                         <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
                     </div>
 
-                    <div id="col3" class="col-md-4 col-sm-4 col-xs-12">
+                    <div id="col3" class="col-md-4 col-sm-12 col-xs-12">
                         <h3>Lorem Ipsum</h3>
                         <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+                    </div>
+                    
+                    <div class="another_column">
+                    <img src="http://res.cloudinary.com/simpleview/image/upload/v1470836048/clients/norway/naeroyfjorden_fjord_norway_2_1_001b9127-14ad-4b3d-99b6-29d8b3aae412.jpg">
                     </div>
                 </div>
             </div>
