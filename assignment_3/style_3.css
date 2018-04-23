@@ -47,6 +47,7 @@ h2 {
 .dropdown {
     position: relative;
     display: inline-block;
+    float: right;
 }
 
 /* Als dropdown naar beneden gaat wordt onderstaande laten zien*/
