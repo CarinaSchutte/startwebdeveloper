@@ -24,5 +24,7 @@ function wholeFunction() {
             speakHello(names[i]);
           }
         }
+    return (speakWord + firstLetter + name)
 }
+
 console.log(wholeFunction(john))

@@ -11,7 +11,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // See Lecture 52, part 1
 // var byeSpeaker =
 
-var byeSpeaker = speak();
+var byeSpeaker = {};
 // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
 var speakWord = "Good Bye";
 

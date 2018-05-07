@@ -1,6 +1,6 @@
 // STEP 2: Wrap the entire contents of SpeakHello.js inside of an IIFE
 // See Lecture 52, part 2
-(function hoi() {
+(function (window) {
 
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
   console.log(names)  
@@ -10,8 +10,8 @@
 // See Lecture 52, part 1
 // var helloSpeaker =
 
-  // var helloSpeaker = speak(); 
-// console.log(helloSpeaker)
+  var helloSpeaker = {}; 
+console.log(helloSpeaker)
 
 // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
   var speakWord = "Hello";
@@ -20,10 +20,10 @@
 // STEP 4: Rewrite the 'speak' function such that it is attached to the
 // helloSpeaker object instead of being a standalone function.
 // See Lecture 52, part 2
-  function speak(name) {
+  helloSpeaker.speak = function () {
     let speakWord = "Hello";
     let firstLetter = names[i].charAt(0).toLowerCase();
-    console.log(speakWord + firstLetter + name);
+    console.log(speakWord + " " + name);
     console.log(speakWord)
   }
 // console.log(speak)
@@ -35,5 +35,7 @@
 // xxxx.xxxx = helloSpeaker;
 
 // console.log(hoi(job))
-})
+
+window.helloSpeaker = helloSpeaker
+})(window);
 
