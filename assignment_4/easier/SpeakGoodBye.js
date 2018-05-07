@@ -20,6 +20,7 @@ var speakWord = "Good Bye";
 // See Lecture 52, part 2
 function speak(name) {
   var speakWord = "Good Bye";
+  var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
   console.log(speakWord + " " + name);
 }
 
@@ -27,5 +28,5 @@ function speak(name) {
 // 'byeSpeaker' on the global scope as well.
 // xxxx.xxxx = byeSpeaker;
 
-console.log(speak)
+console.log(speak(Jen))
 
