@@ -48,7 +48,7 @@ h2 {
 .dropdown {
     position: relative;
     display: inline-block;
-    float: right;
+    float: none;
     
 }
 
