@@ -8,6 +8,7 @@ h2 {
 #header-nav {
     background-color: aqua;
     margin: none;
+    width: 100%;
 
 }
 
@@ -81,6 +82,10 @@ h2 {
 }
 
 .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-content span:hover {
     background-color: #f1f1f1;
 }
 
