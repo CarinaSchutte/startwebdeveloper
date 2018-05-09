@@ -5,12 +5,12 @@ h2 {
     margin-left: 20px;
 }
 
-#header-nav {
+/* #header-nav {
     background-color: aqua;
     margin: none;
     width: 100%;
 
-}
+} */
 
 .container-fluid {
     background-color: aquamarine;
@@ -21,10 +21,6 @@ h2 {
 .navbar-toggle {
     position: relative;
     float: right;
-    /* padding: 2px 2px;
-    margin-top: 8px;
-    margin-right: 15px;
-    margin-bottom: 8px; */
     background-color: peru;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -32,6 +28,23 @@ h2 {
 
 .navbar-text {
     float: left;
+}
+
+.nav-bar {
+    border-style: none;
+    border-color: transparent;
+}
+.navbar-form {
+    border-color: transparent;
+    border-style: none;
+}
+.nav-default {
+    border-style: none;
+    border-color: transparent;
+}
+.nav-collapse {
+    border-style: none;
+    border-color: transparent;
 }
 
 /* zichtbaar dropdown knop*/
@@ -99,27 +112,14 @@ h2 {
 
 
 
-
-
-
-
-
-/* div.row {
-    display: grid;
-} */
-
-/* <!-- <img src="http://res.cloudinary.com/simpleview/image/upload/v1470836048/clients/norway/naeroyfjorden_fjord_norway_2_1_001b9127-14ad-4b3d-99b6-29d8b3aae412.jpg"> --> */
-
-
-
-#col1 {
+#chicken {
     background-color: blue;
 }
 
-#col2 { 
+#beef { 
     background-color: pink;
 }
 
-#col3 {
+#sushi {
     background-color: purple;
 }
