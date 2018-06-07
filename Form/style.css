@@ -1,0 +1,41 @@
+* { 
+    box-sizing: border-box;
+}
+
+form {
+    background-color: aqua;
+}
+
+.centerForm {
+   margin: 10px auto 10px auto;
+   border: 2px;
+   border-style: solid;
+   border-color: black;;
+}
+#inputLeft {
+    float: left;
+}
+
+#inputRight {
+    float: right;
+}
+.clearfix {
+    overflow: auto;
+}
+
+/* small screen */
+@media screen and (max-width: 767px) {
+    .centerForm {
+        height: auto;
+        width: 350px;
+    }
+}
+
+/* big screen */
+@media screen and (min-width: 768px) {
+    .centerForm {
+        height: auto;  
+        width: 500px;
+    }
+  
+}   
