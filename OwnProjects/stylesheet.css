@@ -1,0 +1,87 @@
+
+.headerOne {
+    background-color: aqua;
+    float: right;
+    box-sizing: inherit;
+    width: 90%;
+    height: 80%;
+}
+
+.navbarLeft {
+    background-color: bisque;
+    float: left;
+    box-sizing: inherit;
+    width: 10%;
+    height: 100%;
+}
+
+.FooterBelow {
+    background-color: khaki;
+    float: right;
+    width: 90%;
+    height: 20%;
+}
+
+.headSponsor {
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    margin: 5px;
+    height: 85%;
+    width: 35%;
+    float: left;
+}
+
+.SponsorOne {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    margin: 5px;
+    height: 25%;
+    width: 18%;
+    float: left;
+    margin-right: 2%;
+}
+
+.lowerSponsorsRowOne {
+    background-color: blue;
+    animation: mymove 5s infinite;
+    position :relative;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {top: -50px;}
+}
+
+.SponsorTwo {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    margin: 5px;
+    height: 25%;
+    width: 18%;
+    float: left;
+}
+.SponsorThree {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    height: 25%;
+    width: 18%;
+    float: left;
+    margin-left: 2%;
+}
+
+.everylowSponsor {
+    float: right;
+    height: 100%;
+}
+
+#container {
+    width: 62%;
+    height: 100%;
+    position: relative;
+    background: yellow;
+}
+ 
