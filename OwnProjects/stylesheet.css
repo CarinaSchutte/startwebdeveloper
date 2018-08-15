@@ -32,7 +32,7 @@
     float: left;
 }
 
-.SponsorOne {
+.Sponsors {
     border-style: solid;
     border-color: white;
     border-width: 2px;
@@ -43,7 +43,7 @@
     margin-right: 2%;
 }
 
-.lowerSponsorsRowOne {
+.lowerSponsorsRows {
     background-color: blue;
     animation: mymove 5s infinite;
     position :relative;
@@ -52,25 +52,6 @@
 @keyframes mymove {
     from {left: 0px;}
     to {top: -50px;}
-}
-
-.SponsorTwo {
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-    margin: 5px;
-    height: 25%;
-    width: 18%;
-    float: left;
-}
-.SponsorThree {
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-    height: 25%;
-    width: 18%;
-    float: left;
-    margin-left: 2%;
 }
 
 .everylowSponsor {
@@ -85,3 +66,8 @@
     background: yellow;
 }
  
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
