@@ -24,3 +24,8 @@
 
 
 // document.getElementById("removeMyMove").remove();
+
+// function myFunction() {
+//     var element = document.getElementById("removeMyMove");
+//     element.className = element.className.replace(everylowSponsor, "");
+//   }
