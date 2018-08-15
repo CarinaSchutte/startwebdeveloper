@@ -18,3 +18,9 @@
 //       }
 //     }
 //   }
+
+// var elem = document.getElementById("removeMyMove");
+// elem.parentNode.removeChild(elem);
+
+
+// document.getElementById("removeMyMove").remove();

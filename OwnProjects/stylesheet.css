@@ -43,8 +43,7 @@
     margin-right: 2%;
 }
 
-.lowerSponsorsRows {
-    background-color: blue;
+#removeMyMove {
     animation: mymove 5s infinite;
     position :relative;
 }
@@ -70,4 +69,10 @@ img {
     height: 100%;
     width: 100%;
     object-fit: contain;
+    -webkit-filter: grayscale(1); 
+}
+  
+img:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
 }
